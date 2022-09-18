@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(237, 245, 245);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(104, 128, 128);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.link{
+    padding: 15px 40px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .button{
+    width: 30em;
+    height: 15vh;
+    border: none;
+    border-radius: 40px;
   }
-}
+  .button:hover{
+    background-color:rgb(188, 191, 194);
+    cursor: pointer;
+  }
+  .shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(104, 128, 128);
+  }
+  .shopButtons{
+    width: 20%;
+    height: 5vh;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(104, 128, 128);
+
+  }
+  .allShop{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+        width: 400px;        
+    }
+  .one{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .buttonsShowMore{
+    background-color: rgb(237, 245, 245);
+    border: none;
+    cursor: pointer;
+    color:blue
+  }
